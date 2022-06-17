@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    margin-left: 50px;
+}
+.grid-box{
+    width: 70%;
+    display: grid;
+    gap: 10px;
+    background-color: darkslategrey;
+    padding: 40px;
+    grid-template-areas: 'myhead myhead myhead myhead myhead myhead mymenu mymenu mymenu mymenu'
+    'mymain mymain mymain  myright myright myright myright myright myright myright' 'mymain mymain mymain myfooter myfooter myfooter myfooter myfooter myfooter myfooter';
+    grid-gap: 1em;
+}
+
+.header{
+    background-color: rgb(8, 172, 8);
+    grid-area:myhead;
+    padding: 100px;
+}
+
+.menu{
+    background-color: blueviolet;
+    grid-area: mymenu;
+    padding: 50px;
+}
+
+.main{
+    background-color: coral;
+    grid-area: mymain;
+    padding: 90px;
+}
+
+.right{
+    background-color: crimson;
+    grid-area: myright;
+    padding: none;
+}
+
+.footer{
+    background-color: indigo;
+    grid-area: myfooter;
+    padding: 10px;
+}

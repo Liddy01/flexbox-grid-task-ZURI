@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(./Images/bg-intro-desktop.png);
+    background-color:brown;
+    color: white;
+}
+
+.main-text{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 5px;
+    height: 400px;
+    border-radius: 5px;
+}
+.sedan-icon{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.sedans h2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+
+.sedans p{
+    color: white;
+    padding: 10px 20px ;
+    font-size: 15px;
+    line-height: 2em;
+    font-family: Lexend Deca;
+    word-spacing: 0.2em;
+}
+
+.but{
+    color: hsl(31, 77%, 52%);;
+    margin-left: 3em;
+    margin-top: 3em;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+}
+
+.but:hover{
+   color:white;
+   background-color: hsl(31, 77%, 52%);
+}
+
+.suv{
+    background-color:hsl(184, 100%, 22%);
+    padding: 5px;
+    height: 400px;
+    border-radius: 5px;
+}
+.suv-icon{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.suv h2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+        
+}
+
+.suv p{
+    color: white;
+    padding: 10px 20px ;
+    font-size: 15px;
+    line-height: 2em;
+    font-family: Lexend Deca;
+    word-spacing: 0.2em;
+}
+
+.suvbut{
+    color: hsl(184, 100%, 22%);
+    margin-left: 3em;
+    margin-top: 3em;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.suvbut:hover{
+    color:white;
+    background-color:hsl(184, 100%, 22%);
+}
+
+
+.luxury{
+    background-color: hsl(179, 100%,13%);
+    padding: 5px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.lux-icon{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.luxury h2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+        
+}
+
+.luxury p{
+    color: white;
+    padding: 10px 20px ;
+    font-size: 15px;
+    line-height: 2em;
+    word-spacing: 0.2em;
+}
+
+.luxbut{
+    color: hsl(179, 100%,13%);
+    margin-left: 3em;
+    margin-top: 3em;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+}
+
+.luxbut:hover{
+    color:white;
+    background-color:hsl(184, 100%, 22%);
+}
+
+
